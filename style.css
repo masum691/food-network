@@ -1,0 +1,98 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+.flexible-container{
+    display: flex;
+    background-repeat: no-repeat;
+    margin-bottom: 111px;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+h1{
+    font-size: 63px;
+    margin-bottom: 33px;
+    margin-top: 122px;
+    color: rgb(88, 88, 88);
+    text-transform: capitalize;
+}
+.description{
+    margin-bottom: 64px;
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+    padding-right: 19%;
+}
+.diffrent-color{
+    color: #FC8F49;
+}
+.clickable-button{
+    color: white;
+    background-image: linear-gradient(
+    250deg
+    ,#e24203 ,#FC8F49);
+    box-shadow: 5px 5px 30px #FC8F49;
+    text-decoration: none;
+    padding: 18px 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    
+}
+.clickable-button:hover{
+    background-image: linear-gradient(
+    250deg
+    ,#000000 ,#464646);
+    box-shadow: 5px 5px 30px #333333;
+}
+.about-container{
+    display: flex;
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 62px;
+    margin-bottom: 111px;
+}
+.about-container .half-width img{
+    width: 50%;
+    margin-left: 30%;
+
+}
+.about-heading{
+    font-size: 33px;
+}
+.recipe-heading{
+    text-align: center;
+}
+.recipe-desc{
+    text-align: center;
+    padding: 0 23%;
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+}
+.skills-cantainer{
+    display: flex;
+    width: 90%;
+    margin: 0% 5%;
+    
+}
+.recipe-blog{
+    width: 33%;
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 5px 5px 30px #cac9c9;
+    border-radius: 30px;
+}
+.recipe-blog img{
+    width: 100%;
+    border-radius: 15px;
+}
+.food-description{
+    color: rgb(88, 88, 88);
+    font-size: 19px;
+    line-height: 29px;
+}
