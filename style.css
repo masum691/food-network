@@ -67,6 +67,9 @@ h1{
 }
 .recipe-heading{
     text-align: center;
+    color: rgb(88, 88, 88);
+    font-size: 38px;
+    font-family: Tahoma;
 }
 .recipe-desc{
     text-align: center;
@@ -74,10 +77,10 @@ h1{
     color: rgb(88, 88, 88);
     font-size: 20px;
 }
-.skills-cantainer{
+.skills-container{
     display: flex;
     width: 90%;
-    margin: 0% 5%;
+    margin: 3% 5%;
     
 }
 .recipe-blog{
@@ -95,4 +98,24 @@ h1{
     color: rgb(88, 88, 88);
     font-size: 19px;
     line-height: 29px;
+}
+.social-info{
+    display: flex;
+    width: 90%;
+    margin: 8% 5%;
+    padding-bottom: 3%;
+    box-shadow: 5px 5px 30px #cac9c9;
+    border-radius: 30px;
+}
+.follwers{
+    width: 33.33%;
+    text-align: center;
+}
+.social-info h2{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.social-info p{
+    font-size: 19px;
 }
