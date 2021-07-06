@@ -1,13 +1,61 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+nav{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    line-height: 50px;
+    box-shadow: 2px 2px 33px rgb(238, 237, 237);
+    padding: 0px 2px;
+    position: fixed;
+    z-index: 1;
+}
+nav .logo{
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+}
+.logo span{
+    color: #FC8F49;
+}
+nav .logo p{
+    float: left;
+    color: rgb(100, 99, 99);
+    margin: 0;
+    padding-left: 5%;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-family: tahoma;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+.active{
+    color: rgb(116, 136, 128);
+}
+nav ul li a{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 30px;
+} 
 
 .flexible-container{
     display: flex;
     background-repeat: no-repeat;
     margin-bottom: 111px;
+    padding-top: 122px;
+  
 }
 .half-width{
     width: 50%;
@@ -105,7 +153,7 @@ h1{
     display: flex;
     width: 90%;
     margin: 8% 5%;
-    padding: 5% 0;
+    padding: 2% 0;
     box-shadow: 5px 5px 30px #cac9c9;
     border-radius: 30px;
 }
@@ -121,6 +169,21 @@ h1{
 .social-info p{
     font-size: 19px;
 }
+
+.latest-post-section{
+    display: flex;
+    width: 90%;
+    margin: 5%;
+}
+.latest-post{
+    width: 30%;
+}
+.latest-post img{
+    width: 90%;
+    border-radius: 12px;
+}
+
+
 footer{
     background-color: rgb(24, 23, 23);
     text-align: center;
@@ -142,3 +205,4 @@ footer p{
     letter-spacing: 1.8px;
     color: rgb(231, 224, 224);
 }
+
